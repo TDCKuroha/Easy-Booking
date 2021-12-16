@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Varta:wght@400;700&display=swap");
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+html {
+  zoom: 0.8;
+}
+
+.header {
+  background-color: #E2E7F9;
+  padding: 14px;
+  display: flex;
+  justify-content: center;
+  border-bottom: solid 1px black;
+}
+
+.navigation,
+.nav-links,
+.nav-links ul {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  justify-content: space-between;
+  max-width: 45.8%;
+  width: 100%;
+  display: flex;
+}
+
+.header img {
+  border: 1px solid #0800FF;
+}
+
+#content {
+  max-width: 1084px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Varta";
+  position: relative;
+  padding-bottom: 3em;
+  min-height: 100vh;
+}
+
+.banner-box {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 50px;
+}
+.home-headline-1 {
+  text-align: center;
+  margin-bottom: 22px;
+  background: #4C5EA7;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 25px;
+  border: solid 1px black;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -120px;
+  color: white;
+  font-weight: bold;
+  font-size: 100px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #4C5EA7;
+  padding: 25px 16px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  color: white;
+  border: solid 1px black;
+}
+#caption {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+footer {
+  background-color: #E2E7F9;
+  display: flex;
+  padding: 27.77px;
+  margin: 0 auto;
+  justify-content: center;
+  border-top: solid 1px black;
+  margin-top: 40px;
+}
+
+.clean {
+  justify-content: space-between;
+  max-width: 1084px;
+  width: 100%;
+  display: flex;
+}
+
+.copyright {
+  color: #707070;
+  font-size: 27px;
+  margin-top: 17px;
+}
+
+.social {
+  margin-top: 5px;
+}
+
+.social img {
+  margin-left: 20px;
+}
+
+.main-nav a {
+  color: black;
+  font-size: 33px;
+  margin-left: 35px;
+}
+.main-nav a:hover {
+  color: red;
+}
+
+.call-to-action a {
+  color: red;
+  font-size: 33px;
+  text-transform: uppercase;
+}
+.call-to-action a:hover {
+  color: #4C5EA7;
+}
+
+.main-nav {
+  padding: 0px;
+}
+main {
+  padding: ;
+}
+
+.container {
+}
+
+.mySlides {
+}
+
+
+.banner-faq-box {
+    margin-top: 25px;
+  }
+
+.banner-book {
+  width: 650px;
+  height: 550px;
+  margin-top: 0px;
+}
+.banner-about-box {
+  margin-top: 60px;
+  margin-bottom: 65px;
+}
+
+.all-p-about {
+  width: 941;
+  height: 432px;
+}
+
+.center-p {
+  font-size: 35px;
+  margin-bottom: 42px;
+}
+
+.left-p {
+  font-size: 35px;
+  margin-top: 55px;
+  text-align: right;
+
+}
+.faq-heading {
+  border-bottom: #777;
+  padding: 20px 60px;
+}
+.faq-container {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  margin-left: -280px;
+}
+.hr-line {
+  width: 60%;
+  margin: auto;
+}
+
+
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+  /* background-color: #eee; */
+  color: black;
+  cursor: pointer;
+  padding: 30px 20px;
+  width: 60%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: auto;
+  font-weight: 900;
+  font-size: 30px;
+  
+}
+.faq-body {
+  margin: auto;
+  /* text-align: center; */
+  width: 50%;
+  padding: auto;
+  
+
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+  background-color: #F9F9F9;
+}
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+  padding: 0 10px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  font-size: 30px;
+}
+.faq-page:after {
+  content: "\02795";
+  /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+.active:after {
+  content: "\2796";
+  /* Unicode character for "minus" sign (-) */
+}
